@@ -30,3 +30,4 @@ streamlit run app.py
 - SSRF protection: only public http(s) hosts; redirects re-checked on every hop
 - Prompt-injection guard: user data wrapped in `<<< >>>` and treated as data
 - Input truncated to 4000 chars, CSV limited to 50 rows, results cached for 1 hour
+# ai-starter-template
