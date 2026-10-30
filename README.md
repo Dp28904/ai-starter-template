@@ -30,4 +30,11 @@ streamlit run app.py
 - SSRF protection: only public http(s) hosts; redirects re-checked on every hop
 - Prompt-injection guard: user data wrapped in `<<< >>>` and treated as data
 - Input truncated to 4000 chars, CSV limited to 50 rows, results cached for 1 hour
-# ai-starter-template
+
+## Interview prep
+| File | Contents |
+|---|---|
+| [INTERVIEW_PREP.md](INTERVIEW_PREP.md) | Company research, Round 1 MCQ cheat sheet and traps, Round 3 model answers, tricky questions, HR |
+| [ROUND2_PLAYBOOK.md](ROUND2_PLAYBOOK.md) | Likely problem statements, questions to ask, timed workflow, setup on an unfamiliar machine, checklist, demo script |
+| [PROMPTS.md](PROMPTS.md) | AI prompts for planning, building, hardening, debugging, testing and the README |
+| [E2M_Interview_Prep.pdf](E2M_Interview_Prep.pdf) | All three files above in one phone-sized PDF |
